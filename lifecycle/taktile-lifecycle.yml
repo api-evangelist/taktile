@@ -1,0 +1,26 @@
+generated: '2026-07-21'
+method: searched
+source: https://status.taktile.com/
+status_page: https://status.taktile.com/
+status_page_components:
+- Real-time decision execution
+- User interface
+- Taktile API (including Authentication)
+- Flow API
+status_subscriptions:
+- email
+- rss
+- json
+- webhooks
+- slack
+changelog: https://docs.taktile.com/changelog
+versioning:
+  scheme: unknown
+  notes: >-
+    Product documentation and changelog are hosted on GitBook behind an
+    authentication wall (docs.taktile.com redirects to app.taktile.com login),
+    so the public versioning and deprecation policy could not be captured.
+deprecation:
+  policy_url: null
+  notes: not publicly documented (docs are auth-walled)
+deprecated_operations: []

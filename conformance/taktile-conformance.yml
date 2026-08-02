@@ -1,0 +1,26 @@
+generated: '2026-07-21'
+method: searched
+source: https://www.taktile.com/security-governance
+standards:
+- id: soc2-type-ii
+  conforms: true
+  evidence: Security & Governance page states SOC 2 Type II compliance (AWS data centers)
+- id: iso-27001
+  conforms: true
+  evidence: Security & Governance page states ISO 27001 certification (AWS data centers)
+- id: gdpr
+  conforms: true
+  evidence: Taktile is GDPR compliant, acts as Data Processor with a Data Processing Agreement (DPA) available
+- id: pci-dss
+  conforms: false
+  evidence: not referenced on the Security & Governance page
+- id: hipaa
+  conforms: false
+  evidence: not referenced on the Security & Governance page
+compliance_programs:
+- name: SOC 2 Type II
+  url: https://www.taktile.com/security-governance
+- name: ISO 27001
+  url: https://www.taktile.com/security-governance
+- name: GDPR (Data Processor, DPA available)
+  url: https://www.taktile.com/security-governance

@@ -1,8 +1,26 @@
 aid: taktile
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/taktile.png
 name: taktile
-description: taktile is a company surfaced as a portfolio company of balderton-capital, index-ventures,
-  prosus-ventures and added to the API Evangelist network as a stub for enrichment. This profile is a
-  lead awaiting the enrichment pipeline.
+description: >-
+  Taktile is an agentic decision platform for financial institutions that
+  combines AI speed with human oversight to automate and optimize high-stakes
+  decisions across banking and insurance. Its Decision Engine, AI Agent Manager,
+  Case Manager, and Context Layer power onboarding and KYC, credit underwriting,
+  AML and fraud investigation, claims processing, and insurance underwriting.
+  Teams design, test, deploy, and monitor decision flows and AI agents through a
+  no-code studio backed by real-time APIs (the Taktile API and Flow API), with
+  enterprise-grade infrastructure, data integrations, and governance controls.
 url: https://raw.githubusercontent.com/api-evangelist/taktile/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -14,9 +32,19 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Decisioning
+- Decision Automation
+- Credit Risk
+- Underwriting
+- Fraud Detection
+- KYC
+- Financial Services
+- Insurance
+- Agentic AI
+- Machine Learning
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -26,3 +54,36 @@ maintainers:
 common:
 - type: Website
   url: https://www.taktile.com/
+- type: DeveloperPortal
+  url: https://docs.taktile.com/
+- type: Documentation
+  url: https://docs.taktile.com/
+- type: Blog
+  url: https://www.taktile.com/blog
+- type: GitHubOrganization
+  url: https://github.com/taktile-org
+- type: StatusPage
+  url: https://status.taktile.com/
+- type: ChangeLog
+  url: https://docs.taktile.com/changelog
+- type: PrivacyPolicy
+  url: https://www.taktile.com/privacy-policy
+- type: Compliance
+  url: https://www.taktile.com/security-governance
+- type: Security
+  url: https://www.taktile.com/security-governance
+- type: Conformance
+  url: conformance/taktile-conformance.yml
+- type: VulnerabilityDisclosure
+  url: security/taktile-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/taktile-domain-security.yml
+- type: Lifecycle
+  url: lifecycle/taktile-lifecycle.yml
+- type: LLMsTxt
+  url: llms/taktile-llms.txt
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 5
+  pass: local-v1
