@@ -1,0 +1,33 @@
+# Front Door AI Index — taktile — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: taktile
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: www.taktile.com
+  final_host: www.taktile.com
+  ownership: own
+  owner: taktile
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 118
+  host_score: 118
+  density: 65.7
+  words: 1796
+  tiers:
+    agentic: 33
+    core: 55
+    model: 30
+  ambiguous: 42
+  top_terms:
+    AI: 54
+    agent: 39
+    AI agent: 29
+    Anthropic: 15
+    OpenAI: 15
+    agentic: 4
+    automation: 2
+    artificial intelligence: 1
+    intelligence: 1
