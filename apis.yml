@@ -50,12 +50,12 @@ tags:
 - Decision Automation
 - Credit Risk
 - Underwriting
-- Fraud Detection
+- Fraud Prevention
 - KYC
-- Financial-Services
+- Financial Services
 - Insurance
-- Agentic AI
-- Machine-Learning
+- AI Agents
+- Machine Learning
 tags_raw:
 - Company
 - Decisioning
@@ -68,6 +68,8 @@ tags_raw:
 - Insurance
 - Agentic AI
 - Machine Learning
+- Financial-Services
+- Machine-Learning
 apis: []
 maintainers:
 - FN: Kin Lane
